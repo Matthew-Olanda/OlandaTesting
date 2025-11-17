@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==================== MAIN BODY ==================== */
+
+.main-body {
+    height: 75vh;
+    width: 45vw;
+    margin: auto;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.body-1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#phone {
+    height: 100%;
+    width: auto;
+}
+
+.body-2 {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+/* ==================== LOGIN BOX ==================== */
+
+.login {
+    border: 0.15vw solid rgb(211, 211, 211);
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    top: 2vh;
+    background: white;
+}
+
+.instagram-box {
+    height: 7vh;
+    margin-top: 3vh;
+}
+
+#instagram-logo {
+    height: 100%;
+    width: auto;
+}
+
+/* ==================== TEXT FIELDS ==================== */
+
+.textfield {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.textfield p {
+    color: red;
+    font-size: 1.6vh;
+    margin-top: 2vh;
+    line-height: 1.4;
+    margin-bottom: 1vh;
+    padding: .2rem;
+}
+
+#password {
+    border: 0.12vw solid rgb(211, 211, 211);
+    width: 75%;
+    padding: 1vh;
+    font-size: 1.7vh;
+}
+
+#login-btn {
+    border: none;
+    border-radius: 0.8vh;
+    margin-bottom: 2vh;
+    height: 5vh;
+    width: 75%;
+    font-weight: bold;
+    background-color: rgb(77, 167, 252);
+    color: white;
+    cursor: pointer;
+}
+
+/* ==================== GET THE APP ==================== */
+
+.get-the-app {
+    font-size: 1.6vh;
+    margin-top: 4vh;
+}
+
+.get-the-app-images {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 3vh;
+}
+
+.google-play,
+.microsoft {
+    height: 6vh;
+}
+
+#google-play,
+#microsoft {
+    height: 100%;
+    width: auto;
+}
+
+/* ==================== FOOTER ==================== */
+
+footer {
+    margin-top: 15vh;
+}
+
+.footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    padding: 2vh;
+    margin-top: -5vh;
+}
+
+.footer-1 a {
+    color: gray;
+    font-size: 1.4vh;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    color: gray;
+    font-size: 1.5vh;
+    padding-bottom: 5vh;
+}
+
+/* ==================== LOGO + PHONE CONTAINER ==================== */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+#instagram-logo {
+    width: 13vw;
+}
+
+#phone {
+    height: 12vh !important;
+    width: auto;
+}
+
+.username-display {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vh;
+    margin-top: 4vh;
+}
